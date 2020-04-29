@@ -1,11 +1,17 @@
-$('.fa-bars').click(
-    function () {
-        $('.hamburger-menu').show();
-    }
-);
+// $('.fa-bars').click(
+//     function () {
+//         $('.hamburger-menu').show();
+//     }
+// );
+//
+// $('.fa-times').click(
+//     function () {
+//         $('.hamburger-menu').hide();
+//     }
+// );
 
-$('.fa-times').click(
+$('.hamburger-menu a, .header-right a').click(
     function () {
-        $('.hamburger-menu').hide();
+        $('.hamburger-menu').toggle();
     }
 );
